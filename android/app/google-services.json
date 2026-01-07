@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1050217467046",
+    "project_id": "cleancampus-8d410",
+    "storage_bucket": "cleancampus-8d410.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050217467046:android:be7dffb9dc829cb7f33867",
+        "android_client_info": {
+          "package_name": "com.example.uas_pab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlj1uVg67wEyuLPBK6EZNcxR9NMzrY8Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
