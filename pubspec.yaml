@@ -1,0 +1,44 @@
+name: uas_pab
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0 # Saya ubah ke ^3.0.0 agar lebih aman/kompatibel dengan banyak versi Dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- PACKAGE YANG KAMU BUTUHKAN ---
+  http: ^1.2.0
+  image_picker: ^1.1.0
+  google_sign_in: ^6.2.1  # <--- INI WAJIB DITAMBAHKAN UNTUK LOGIN GOOGLE
+  flutter_local_notifications: ^19.5.0
+  shared_preferences: ^2.3.5
+  google_generative_ai: ^0.4.7
+
+  # Icon bawaan
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/daun.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#5DB8B4"
+
+  # --- PERBAIKAN FORMAT ASSETS ---
+  # Assets harus sejajar (menjorok ke dalam) di bawah 'flutter:'
+#  assets:
+#    - assets/bg_sampah.jpg
